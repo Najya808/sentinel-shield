@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>Security Resources &amp; Insights | Sentinel Shield</title>
+  <meta name="description" content="Cybersecurity guides, threat intelligence reports, compliance frameworks, whitepapers and expert analysis from the Sentinel Shield research team." />
+  <meta name="keywords" content="cybersecurity blog, threat intelligence, security guides, GDPR compliance, penetration testing methodology, ransomware defence" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:type"   content="website" />
+  <meta property="og:url"    content="https://www.sentinelshield.com/resources.html" />
+  <meta property="og:title"  content="Security Resources &amp; Insights | Sentinel Shield" />
+  <meta property="og:image"  content="images/og-sentinel-shield.jpg" />
+
+  <link rel="canonical" href="https://www.sentinelshield.com/resources.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div id="loading-screen" role="status" aria-label="Loading">
+    <div class="loader-logo">
+      <div class="loader-logo-icon"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></div>
+      <span class="loader-brand">Sentinel Shield</span>
+    </div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <p class="loader-text">Loading resources...</p>
+  </div>
+
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="index.html" class="nav-logo" aria-label="Sentinel Shield – Home">
+          <div class="nav-logo-icon" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></div>
+          <div class="nav-logo-text">
+            <span class="nav-logo-primary">Sentinel Shield</span>
+            <span class="nav-logo-secondary">Cybersecurity</span>
+          </div>
+        </a>
+        <div id="nav-overlay" class="nav-menu-overlay" aria-hidden="true"></div>
+        <ul id="nav-menu" class="nav-menu" role="menubar">
+          <li role="none"><a href="index.html"    class="nav-link" role="menuitem">Home</a></li>
+          <li role="none"><a href="about.html"    class="nav-link" role="menuitem">About</a></li>
+          <li class="nav-item" role="none">
+            <a href="services.html" class="nav-link" role="menuitem" aria-haspopup="true">
+              Services <i class="fa-solid fa-chevron-down" style="font-size:0.65rem;margin-left:2px;" aria-hidden="true"></i>
+            </a>
+            <div class="nav-dropdown" role="menu">
+              <a href="services.html#pentest"   role="menuitem"><i class="fa-solid fa-bug-slash" aria-hidden="true"></i>Penetration Testing</a>
+              <a href="services.html#assessment" role="menuitem"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i>Risk Assessment</a>
+              <a href="services.html#managed"    role="menuitem"><i class="fa-solid fa-tower-broadcast" aria-hidden="true"></i>Managed Security</a>
+              <a href="services.html#incident"   role="menuitem"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i>Incident Response</a>
+              <a href="services.html#compliance" role="menuitem"><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i>Compliance</a>
+            </div>
+          </li>
+          <li role="none"><a href="resources.html" class="nav-link active" role="menuitem">Resources</a></li>
+          <li role="none"><a href="contact.html"   class="nav-link" role="menuitem">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="tel:+442079460302" class="btn btn-outline btn-sm"><i class="fa-solid fa-phone" aria-hidden="true"></i> +44 20 7946 0302</a>
+          <a href="contact.html" class="btn btn-primary btn-sm">Free Consultation</a>
+        </div>
+        <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- Page Hero -->
+    <header class="page-hero" aria-label="Resources page header">
+      <div class="page-hero-bg">
+        <img
+          src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=1920&q=80&auto=format&fit=crop"
+          alt="Cybersecurity researchers working at computers with data visualisations on screens"
+          width="1920" height="700"
+          loading="eager"
+        />
+        <div class="page-hero-bg-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="page-hero-content">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Home</a>
+            <span class="sep" aria-hidden="true">/</span>
+            <span class="current">Resources</span>
+          </nav>
+          <span class="eyebrow">Knowledge Hub</span>
+          <h1>Security Intelligence &amp; Insights</h1>
+          <p>Expert analysis, practical guides and threat intelligence from our research team — helping security professionals and business leaders make better decisions.</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Resources Main -->
+    <section class="section" aria-labelledby="resources-main-heading">
+      <div class="container">
+
+        <!-- Featured Article -->
+        <!--
+          Image: data breach concept — secure cloud environment, network protection
+          Source: Unsplash | Keyword: cloud security data protection network
+          File: images/resource-featured-ransomware.webp | Size: 1200×500
+        -->
+        <h2 id="resources-main-heading" class="sr-only">Featured and Latest Resources</h2>
+
+        <article class="resource-featured reveal" aria-label="Featured article">
+          <div class="resource-featured-image">
+            <img
+              src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80&auto=format&fit=crop"
+              alt="Cyber threat landscape overview with digital network security visualisation"
+              width="1200" height="500"
+              loading="eager"
+            />
+          </div>
+          <div class="resource-featured-body">
+            <span class="eyebrow">Featured Report</span>
+            <h2>UK Cyber Threat Report 2024: The Rising Cost of Delayed Detection</h2>
+            <p>
+              Our annual analysis of 340 confirmed incidents handled by our IR team reveals that organisations detecting breaches within 24 hours experience 73% lower remediation costs than those where attackers dwell for more than a week. Read our full analysis.
+            </p>
+            <div class="resource-card-meta" style="margin-bottom:var(--space-5);">
+              <span><i class="fa-solid fa-calendar" aria-hidden="true"></i> December 2024</span>
+              <span><i class="fa-solid fa-clock" aria-hidden="true"></i> 25 min read</span>
+              <span><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> PDF + Online</span>
+            </div>
+            <div style="display:flex;gap:var(--space-3);">
+              <a href="contact.html" class="btn btn-primary">
+                <i class="fa-solid fa-download" aria-hidden="true"></i> Download Report
+              </a>
+              <a href="contact.html" class="btn btn-outline">Read Online</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Filter tabs -->
+        <div class="resources-filter reveal" role="tablist" aria-label="Filter resources by category">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Resources</button>
+          <button class="filter-btn" data-filter="threat-intelligence" role="tab" aria-selected="false">Threat Intelligence</button>
+          <button class="filter-btn" data-filter="guides" role="tab" aria-selected="false">How-To Guides</button>
+          <button class="filter-btn" data-filter="compliance" role="tab" aria-selected="false">Compliance</button>
+          <button class="filter-btn" data-filter="research" role="tab" aria-selected="false">Research</button>
+          <button class="filter-btn" data-filter="webinars" role="tab" aria-selected="false">Webinars</button>
+        </div>
+
+        <!-- Articles Grid -->
+        <div class="grid-3" role="list" aria-label="Resources list">
+
+          <!-- Article 1 -->
+          <article class="resource-card reveal" data-category="threat-intelligence" role="listitem">
+            <div class="resource-card-image">
+              <img
+                src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80&auto=format&fit=crop"
+                alt="Ransomware defence strategies: locked files on computer screen with security alert"
+                width="800" height="400"
+                loading="lazy"
+              />
+              <span class="resource-tag">Threat Intelligence</span>
+            </div>
+            <div class="resource-card-body">
+              <div class="resource-card-meta">
+                <span><i class="fa-solid fa-calendar" aria-hidden="true"></i> Nov 2024</span>
+                <span><i class="fa-solid fa-clock" aria-hidden="true"></i> 12 min</span>
+              </div>
+              <h3>Ransomware-as-a-Service: The 2024 Affiliate Landscape</h3>
+              <p>LockBit 3.0's dismantling by Operation Cronos hasn't dampened the RaaS ecosystem — it's accelerated fragmentation. We map the new affiliate landscape and what it means for defenders.</p>
+              <a href="contact.html" class="btn btn-ghost">
+                Read Article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Article 2 -->
+          <article class="resource-card reveal reveal-delay-1" data-category="compliance" role="listitem">
+            <div class="resource-card-image">
+              <img
+                src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80&auto=format&fit=crop"
+                alt="ISO 27001 compliance documentation review in corporate boardroom"
+                width="800" height="400"
+                loading="lazy"
+              />
+              <span class="resource-tag" style="background:rgba(16,185,129,0.85);">Compliance</span>
+            </div>
+            <div class="resource-card-body">
+              <div class="resource-card-meta">
+                <span><i class="fa-solid fa-calendar" aria-hidden="true"></i> Nov 2024</span>
+                <span><i class="fa-solid fa-clock" aria-hidden="true"></i> 18 min</span>
+              </div>
+              <h3>ISO 27001:2022 — What's Changed and How to Stay Certified</h3>
+              <p>The 2022 revision introduced 11 new controls and restructured the Annex A framework. Here's a practical guide to the key changes and a transition roadmap for organisations currently holding the 2013 standard.</p>
+              <a href="contact.html" class="btn btn-ghost">
+                Read Article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Article 3 -->
+          <article class="resource-card reveal reveal-delay-2" data-category="guides" role="listitem">
+            <div class="resource-card-image">
+              <img
+                src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&q=80&auto=format&fit=crop"
+                alt="Cloud security architecture diagram showing secure network configuration"
+                width="800" height="400"
+                loading="lazy"
+              />
+              <span class="resource-tag" style="background:rgba(6,182,212,0.85);">Guide</span>
+            </div>
+            <div class="resource-card-body">
+              <div class="resource-card-meta">
+                <span><i class="fa-solid fa-calendar" aria-hidden="true"></i> Oct 2024</span>
+                <span><i class="fa-solid fa-clock" aria-hidden="true"></i> 22 min</span>
+              </div>
+              <h3>The Definitive Guide to Securing AWS Environments in 2024</h3>
+              <p>From IAM least-privilege configuration to VPC security group hygiene, CloudTrail monitoring and GuardDuty tuning — a practical security checklist for AWS-native organisations.</p>
+              <a href="contact.html" class="btn btn-ghost">
+                Read Article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Article 4 -->
+          <article class="resource-card reveal" data-category="research" role="listitem">
+            <div class="resource-card-image">
+              <img
+                src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&q=80&auto=format&fit=crop"
+                alt="AI and cybersecurity research: machine learning models analysing threat patterns"
+                width="800" height="400"
+                loading="lazy"
+              />
+              <span class="resource-tag" style="background:rgba(139,92,246,0.85);">Research</span>
+            </div>
+            <div class="resource-card-body">
+              <div class="resource-card-meta">
+                <span><i class="fa-solid fa-calendar" aria-hidden="true"></i> Oct 2024</span>
+                <span><i class="fa-solid fa-clock" aria-hidden="true"></i> 30 min</span>
+              </div>
+              <h3>AI-Augmented Attacks: How Large Language Models Are Changing Phishing</h3>
+              <p>Our research team analysed 50,000 phishing emails over six months and found AI-generated variants bypass traditional email filters 47% more successfully than human-authored templates. The implications for defenders.</p>
+              <a href="contact.html" class="btn btn-ghost">
+                Read Research <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Article 5 -->
+          <article class="resource-card reveal reveal-delay-1" data-category="guides" role="listitem">
+            <div class="resource-card-image">
+              <img
+                src="https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=800&q=80&auto=format&fit=crop"
+                alt="Incident response playbook creation in corporate cybersecurity team meeting"
+                width="800" height="400"
+                loading="lazy"
+              />
+              <span class="resource-tag" style="background:rgba(239,68,68,0.85);">Incident Response</span>
+            </div>
+            <div class="resource-card-body">
+              <div class="resource-card-meta">
+                <span><i class="fa-solid fa-calendar" aria-hidden="true"></i> Sep 2024</span>
+                <span><i class="fa-solid fa-clock" aria-hidden="true"></i> 16 min</span>
+              </div>
+              <h3>Building an Incident Response Playbook: What the First 48 Hours Must Cover</h3>
+              <p>The decisions made in the first two days of a breach response determine 80% of the final outcomes. A step-by-step playbook framework drawn from our team's experience across 300+ live incidents.</p>
+              <a href="contact.html" class="btn btn-ghost">
+                Read Article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Article 6 -->
+          <article class="resource-card reveal reveal-delay-2" data-category="webinars" role="listitem">
+            <div class="resource-card-image">
+              <img
+                src="https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=800&q=80&auto=format&fit=crop"
+                alt="Virtual cybersecurity webinar with presenter sharing DORA compliance insights"
+                width="800" height="400"
+                loading="lazy"
+              />
+              <span class="resource-tag" style="background:rgba(245,158,11,0.85);">Webinar</span>
+            </div>
+            <div class="resource-card-body">
+              <div class="resource-card-meta">
+                <span><i class="fa-solid fa-calendar" aria-hidden="true"></i> Sep 2024</span>
+                <span><i class="fa-solid fa-clock" aria-hidden="true"></i> 58 min</span>
+              </div>
+              <h3>DORA Compliance for Financial Entities: What You Need to Know Before January 2025</h3>
+              <p>Recording and slides from our September webinar on the EU Digital Operational Resilience Act. Covers ICT risk management, third-party testing requirements and the Threat-Led Penetration Testing (TLPT) framework.</p>
+              <a href="contact.html" class="btn btn-ghost">
+                Watch Webinar <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Article 7 -->
+          <article class="resource-card reveal" data-category="threat-intelligence" role="listitem">
+            <div class="resource-card-image">
+              <img
+                src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80&auto=format&fit=crop"
+                alt="Supply chain security vulnerabilities: connected business network infrastructure"
+                width="800" height="400"
+                loading="lazy"
+              />
+              <span class="resource-tag">Threat Intelligence</span>
+            </div>
+            <div class="resource-card-body">
+              <div class="resource-card-meta">
+                <span><i class="fa-solid fa-calendar" aria-hidden="true"></i> Aug 2024</span>
+                <span><i class="fa-solid fa-clock" aria-hidden="true"></i> 14 min</span>
+              </div>
+              <h3>Software Supply Chain Attacks: Three Years After SolarWinds</h3>
+              <p>Three years on, the attack vectors exploited in the SolarWinds compromise remain underdefended in the majority of enterprise environments. Our analysis of the current supply chain threat landscape and practical defensive measures.</p>
+              <a href="contact.html" class="btn btn-ghost">
+                Read Article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Article 8 -->
+          <article class="resource-card reveal reveal-delay-1" data-category="compliance" role="listitem">
+            <div class="resource-card-image">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80&auto=format&fit=crop"
+                alt="GDPR data protection compliance checklist review on business laptop"
+                width="800" height="400"
+                loading="lazy"
+              />
+              <span class="resource-tag" style="background:rgba(16,185,129,0.85);">Compliance</span>
+            </div>
+            <div class="resource-card-body">
+              <div class="resource-card-meta">
+                <span><i class="fa-solid fa-calendar" aria-hidden="true"></i> Aug 2024</span>
+                <span><i class="fa-solid fa-clock" aria-hidden="true"></i> 20 min</span>
+              </div>
+              <h3>GDPR Six Years On: The ICO Enforcement Trends Every DPO Must Know</h3>
+              <p>Analysis of all ICO enforcement notices and fines issued in 2023–2024 reveals three systemic failure patterns. Understanding them is the fastest way to reduce your organisation's regulatory exposure.</p>
+              <a href="contact.html" class="btn btn-ghost">
+                Read Article <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Article 9 -->
+          <article class="resource-card reveal reveal-delay-2" data-category="research" role="listitem">
+            <div class="resource-card-image">
+              <img
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80&auto=format&fit=crop"
+                alt="Zero trust network architecture technical research and implementation guide"
+                width="800" height="400"
+                loading="lazy"
+              />
+              <span class="resource-tag" style="background:rgba(139,92,246,0.85);">Research</span>
+            </div>
+            <div class="resource-card-body">
+              <div class="resource-card-meta">
+                <span><i class="fa-solid fa-calendar" aria-hidden="true"></i> Jul 2024</span>
+                <span><i class="fa-solid fa-clock" aria-hidden="true"></i> 35 min</span>
+              </div>
+              <h3>Zero Trust Architecture: Moving from Marketing Buzzword to Implemented Reality</h3>
+              <p>70% of organisations claim to be implementing Zero Trust. Our independent assessment found fewer than 20% have implemented the core principles in ways that would meaningfully restrict an attacker's lateral movement. The gap explained.</p>
+              <a href="contact.html" class="btn btn-ghost">
+                Read Research <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Load More -->
+        <div class="text-center mt-12 reveal">
+          <a href="contact.html" class="btn btn-outline btn-lg">
+            <i class="fa-solid fa-circle-arrow-down" aria-hidden="true"></i>
+            Load More Resources
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Free Resources CTA -->
+    <section class="section section-alt" aria-labelledby="free-resources-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Free Downloads</span>
+          <h2 id="free-resources-heading">Templates &amp; Checklists</h2>
+          <p>Practical, professional-grade documents your security team can use immediately — no email required.</p>
+        </div>
+        <div class="grid-4">
+          <div class="card reveal text-center">
+            <div class="card-icon mx-auto" aria-hidden="true"><i class="fa-solid fa-file-pdf"></i></div>
+            <h3 style="font-size:var(--text-base);">Incident Response Checklist</h3>
+            <p style="font-size:var(--text-sm);">Step-by-step first-48-hours response procedure for IT and security teams.</p>
+            <a href="contact.html" class="btn btn-outline btn-sm" style="margin-top:var(--space-4);width:100%;">
+              <i class="fa-solid fa-download" aria-hidden="true"></i> Download PDF
+            </a>
+          </div>
+          <div class="card reveal reveal-delay-1 text-center">
+            <div class="card-icon mx-auto" aria-hidden="true"><i class="fa-solid fa-table-list"></i></div>
+            <h3 style="font-size:var(--text-base);">ISO 27001 Gap Analysis Template</h3>
+            <p style="font-size:var(--text-sm);">Excel-based template mapping your current controls against Annex A requirements.</p>
+            <a href="contact.html" class="btn btn-outline btn-sm" style="margin-top:var(--space-4);width:100%;">
+              <i class="fa-solid fa-download" aria-hidden="true"></i> Download XLSX
+            </a>
+          </div>
+          <div class="card reveal reveal-delay-2 text-center">
+            <div class="card-icon mx-auto" aria-hidden="true"><i class="fa-solid fa-clipboard-check"></i></div>
+            <h3 style="font-size:var(--text-base);">GDPR Audit Checklist</h3>
+            <p style="font-size:var(--text-sm);">110-point checklist covering all key GDPR obligations for data controllers and processors.</p>
+            <a href="contact.html" class="btn btn-outline btn-sm" style="margin-top:var(--space-4);width:100%;">
+              <i class="fa-solid fa-download" aria-hidden="true"></i> Download PDF
+            </a>
+          </div>
+          <div class="card reveal reveal-delay-3 text-center">
+            <div class="card-icon cyan mx-auto" aria-hidden="true"><i class="fa-solid fa-fish-fins"></i></div>
+            <h3 style="font-size:var(--text-base);">Phishing Awareness Poster Pack</h3>
+            <p style="font-size:var(--text-sm);">Print-ready A3 posters for offices covering password hygiene, social engineering and safe browsing.</p>
+            <a href="contact.html" class="btn btn-outline btn-sm" style="margin-top:var(--space-4);width:100%;">
+              <i class="fa-solid fa-download" aria-hidden="true"></i> Download ZIP
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="section newsletter-section" aria-labelledby="resources-newsletter-heading">
+      <div class="newsletter-bg">
+        <img
+          src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1440&q=80&auto=format&fit=crop"
+          alt="Modern cybersecurity office"
+          width="1440" height="600"
+          loading="lazy"
+          aria-hidden="true"
+        />
+        <div class="newsletter-bg-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="newsletter-inner reveal">
+          <span class="eyebrow">Monthly Briefing</span>
+          <h2 id="resources-newsletter-heading">Get the Threat Intelligence Briefing</h2>
+          <p>Every month: the three most significant emerging threats, one compliance deadline you shouldn't miss, and one practical security action your team can implement immediately.</p>
+          <form class="newsletter-form" novalidate aria-label="Newsletter subscription">
+            <label for="res-newsletter-email" class="sr-only">Email address</label>
+            <input
+              type="email"
+              id="res-newsletter-email"
+              name="email"
+              class="newsletter-input"
+              placeholder="your.email@company.com"
+              required
+              autocomplete="email"
+            />
+            <button type="submit" class="btn btn-primary">
+              Subscribe <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+            </button>
+          </form>
+          <p class="newsletter-disclaimer">
+            <i class="fa-solid fa-lock" aria-hidden="true"></i>
+            Read by 12,000+ security professionals. Unsubscribe anytime.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <div class="nav-logo-icon" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="nav-logo-text">
+              <span class="nav-logo-primary">Sentinel Shield</span>
+              <span class="nav-logo-secondary">Cybersecurity</span>
+            </div>
+          </a>
+          <p>Enterprise cybersecurity consulting trusted by financial institutions, government agencies and technology companies across 35 countries.</p>
+          <div class="footer-social">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <nav class="footer-col" aria-label="Services links">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html#pentest">Penetration Testing</a></li>
+            <li><a href="services.html#assessment">Vulnerability Assessment</a></li>
+            <li><a href="services.html#managed">Managed Security</a></li>
+            <li><a href="services.html#incident">Incident Response</a></li>
+            <li><a href="services.html#compliance">Compliance Consulting</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-col" aria-label="Company links">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html#team">Our Team</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <address style="font-style:normal;">
+            <div class="footer-contact-item"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span>30 St Mary Axe, London, EC3A 8BF</span></div>
+            <div class="footer-contact-item"><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:+442079460302" style="color:var(--color-gray-500);">+44 20 7946 0302</a></div>
+            <div class="footer-contact-item"><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:enquiries@sentinelshield.com" style="color:var(--color-gray-500);">enquiries@sentinelshield.com</a></div>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2024 Sentinel Shield Cybersecurity Ltd. All rights reserved.</p>
+        <nav class="footer-legal" aria-label="Legal links"><a href="#">Privacy Policy</a><a href="#">Terms</a><a href="#">Cookies</a></nav>
+        <div class="footer-cert"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i><span>ISO 27001 · CREST · Cyber Essentials Plus</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
+  <div class="toast-container" aria-live="polite" aria-atomic="true"></div>
+  <script src="js/script.js"></script>
+</body>
+</html>
